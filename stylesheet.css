@@ -1,0 +1,134 @@
+body{
+	/* SHORTHAND CSS NOTATION
+	background:url(world.jpg) 
+	center center cover no-repeat fixed;
+	*/
+	background-image: url(world.jpg);
+	background-position:center center;
+	background-repeat:cover no-repeat;
+    background-attachment:	fixed; 
+	background-color:#495d63;
+	margin:0px;
+	font-size: 14px;
+	font-family: Verdana, Georgia,san-serif,roboto,helvica;
+	
+}
+#header{
+	background-color: #98b6b1;
+	height: 70px;
+	margin:20px;
+		border-radius: 5px;
+	font-size: 110%;
+
+}
+#navbar ul{
+	background-color: #000;
+	height: 20px;
+	margin:20px;
+	padding:5px;
+	border-radius: 5px;
+	font-size: 100%;
+	text-align:center;
+}
+#navbar ul li{
+	display:inline;
+}
+
+#navbar ul li a{
+	background-color: #000;
+	text-decoration: none;
+	padding: .2em 4em;
+	color: #fff;
+}
+#navbar ul li a:hover{
+	color:#000;
+	background-color: #fff;
+}
+
+
+
+.sideright{
+	background-color: #98b6b1;
+	margin-left:0px;
+	margin-bottom:10px;
+	margin-right:20px;
+	margin-top: 0px;
+	padding:20px;
+	float: right;
+	border-radius: 5px;
+	width: 290px;
+	clear:right;
+
+}
+
+.imagesidebar{
+	margin-left:0px;
+	margin-bottom:10px;
+	margin-right:20px;
+	margin-top: 0px;
+	
+	float: right;
+	border-radius: 5px;
+	
+	width: 330px;
+	clear:right;
+
+}
+
+.main{
+	background-color: #e6e1c5;
+	margin-left:20px;
+	margin-bottom:20px;
+	margin-right:360px;
+	margin-top: 20px;
+	padding:20px;
+	border-radius: 5px;
+	font-size: 110%;
+	
+}
+#footer{
+	background-color: #98b6b1;
+	height:40px;
+	margin:20px;
+	padding:5px;
+	border-radius: 5px;
+	font-size: 80%;
+	text-align: center;
+	clear:both;
+}
+#footer ul{
+	
+	list-style-type: none;
+	
+	border-radius:5px;
+}
+#footer ul li{
+	display:inline;
+}
+
+#footer ul li a{
+	
+	text-decoration: none;
+	padding: .2em 1em;
+	color: #fff;
+}
+#footer ul li a:hover{
+	color:#000;
+	background-color: #fff;
+}
+table{
+	background-color:  #bcd3f2;
+	padding:20px;
+	margin:10px;
+}
+h1{
+	color:#ee6352;
+	
+}
+#header h3{
+	font-size:250%;
+	color:#e75a7c;
+	text-align: center;
+	padding-bottom:10px;
+	padding-top:10px;
+}
